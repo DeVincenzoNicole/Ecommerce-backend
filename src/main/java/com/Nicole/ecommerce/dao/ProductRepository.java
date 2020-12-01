@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestParam;
 
 // Anotacion Spring Boot para el servidor de Angular
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://angular-ecommerce-nicole.herokuapp.com")
 // Spring data JPA
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
