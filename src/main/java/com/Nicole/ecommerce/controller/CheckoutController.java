@@ -5,7 +5,7 @@ import com.Nicole.ecommerce.dto.PurchaseResponse;
 import com.Nicole.ecommerce.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://angular-ecommerce-nicole.herokuapp.com")
 @RestController
 @RequestMapping("/api/checkout")
 
