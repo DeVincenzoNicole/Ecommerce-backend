@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin("https://angular-ecommerce-nicole.herokuapp.com")
 @RestController
-@RequestMapping("/api/checkout")
+@RequestMapping("/checkout")
 
 public class CheckoutController {
 
